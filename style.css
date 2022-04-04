@@ -35,13 +35,20 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
-  .AboutMe {
-    list-style-type: none;
-    margin: 0; 
-    padding: 0;
-    overflow: hidden;
-    background-color:rgb(52, 51, 58);
-    width:50%;
+  .AboutMeTitle {
+    margin-top: 20px; 
+    background-color:rgb(255, 8, 0);
+    border: 2px solid rgb(231, 210, 17);
+  }
+
+  .AboutMe{
+    margin-top: 20px; 
+    background-color:rgb(255, 8, 0);
+  } 
+ #textBTME{
+    border: 14px double blue;
+    width: 30%;
+    color: rgb(236, 205, 27);
     margin-right: auto;
     margin-left: auto;
   }
