@@ -8,9 +8,32 @@
     margin-right: auto;
     padding:0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    border: 2px solid rgb(231, 210, 17);
+
   }
 body{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right ,#f00,#ff0,#0ff,#0f0,#00f);
+  background-clip: text;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+@keyframes animate
+{
+   0%
+   {
+     background-position: 0% 100%;
+   }
+
+   50%
+   {
+     background-position: 100% 0%;
+   }
+
+   100%
+   {
+     background-position: 0% 100%;
+   }
 }
 /* Set the style of the navigation bar */
 .navbar ul {
@@ -22,6 +45,8 @@ body{
     width:50%;
     margin-right: auto;
     margin-left: auto;
+    border: 2px solid rgb(231, 210, 17);
+    margin-top: 20px;
   }
 
   .navbar li {
@@ -43,7 +68,7 @@ body{
 
   .AboutMe{
     margin-top: 20px; 
-    background-color:rgb(255, 8, 0);
+    background-color:rgb(255, 0, 0);
   } 
  #textBTME{
     border: 14px double blue;
@@ -51,4 +76,6 @@ body{
     color: rgb(236, 205, 27);
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 70px;
+    margin-top: 20px;
   }
